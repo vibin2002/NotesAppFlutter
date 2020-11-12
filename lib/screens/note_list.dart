@@ -42,7 +42,7 @@ class NoteListState extends State<NoteList> {
             ),
             title: Text("Dummy title"),
             subtitle: Text("Dummy date"),
-            trailing: Icon(Icons.delete,color: Colors.white70),
+            trailing: Icon(Icons.delete,color: Colors.deepOrangeAccent),
             onTap: (){
               navigatetoNoteDetail("Edit List");
             },

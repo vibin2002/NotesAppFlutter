@@ -80,12 +80,9 @@ class NoteDetailState extends State<NoteDetail> {
                   children: <Widget>[
                     Expanded(
                         child: RaisedButton(
-                      color: Theme.of(context).primaryColorDark,
-                      textColor: Theme.of(context).primaryColorLight,
-                      child: Text(
-                        "Save",
-                        textScaleFactor: 1.5,
-                      ),
+                          color: Theme.of(context).primaryColorDark,
+                          textColor: Theme.of(context).primaryColorLight,
+                          child: Text("Save", textScaleFactor: 1.5,),
                       onPressed: () {
                         setState(() {});
                       },
@@ -93,9 +90,9 @@ class NoteDetailState extends State<NoteDetail> {
                     Container(width: 5.0),
                     Expanded(
                         child: RaisedButton(
-                      color: Theme.of(context).primaryColorDark,
-                      textColor: Theme.of(context).primaryColorLight,
-                      child: Text(
+                        color: Theme.of(context).primaryColorDark,
+                        textColor: Theme.of(context).primaryColorLight,
+                            child: Text(
                         "Delete",
                         textScaleFactor: 1.5,
                       ),
